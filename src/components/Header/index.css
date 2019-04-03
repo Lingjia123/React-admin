@@ -1,0 +1,38 @@
+.head {
+  line-height: 16px;
+}
+.head .head-top {
+  text-align: right;
+  padding: 20px;
+  border-bottom: 1px solid #1da57a;
+}
+.head .head-bottom {
+  display: flex;
+  align-items: center;
+  height: 40px;
+}
+.head .head-bottom .head-left {
+  text-align: center;
+  font-size: 20px;
+}
+.head .head-bottom .head-left::after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  bottom: -40px;
+  transform: translateX(-50%);
+  border-bottom: 15px solid transparent;
+  border-top: 15px solid #fff;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+}
+.head .head-bottom .head-right {
+  text-align: right;
+  padding-right: 25px;
+}
+.head .head-bottom .head-right img {
+  margin: 0 10px;
+  width: 30px;
+  height: 20px;
+}
+/*# sourceMappingURL=index.css.map */

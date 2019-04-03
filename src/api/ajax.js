@@ -8,22 +8,26 @@
 import axios from 'axios';
 import {message} from 'antd';
 
-let promise = null;
 
-export default function ajax(url,data,method ='GET'){
-method = method.toUpperCase();
-if(method === 'GET'){
- promise = axios.get(url,{
-    params:data
-})
-}else{
- promise = axios.post(url,data)
-}
-promise
-    .then(res=>{
-        return res.data
+export default function ajax(url, data, method = 'GET') {
+
+  method = method.toUpperCase();
+
+  let promise = null;
+
+  if (method === 'GET') {
+    promise = axios.get(url, {
+      params: data
     })
-    .catch(err=>{
-       return message.error('网络请求失败,请重试~')
+  } else {
+    promise = axios.post(url, data)
+  }
+  return promise
+    .then(res => {
+      return res.data
+    })
+    .catch(err => {
+
+      message.error('网络请求失败,请重试~', 2)
     })
 }
