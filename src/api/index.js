@@ -13,6 +13,7 @@ export const ReqWeather =(city)=>{
         if(!err){
           const {weather,dayPictureUrl} = data.results[0].weather_data[0]
           resolve({weather,weatherImage:dayPictureUrl})
+
         }else{
           reject('请求失败')
         }
@@ -20,3 +21,9 @@ export const ReqWeather =(city)=>{
         )
    })
 }
+// 请求分类列表数据函数
+export const ReqCategories =(parentId)=> ajax(prefix + '/manage/category/list',{parentId});
+// 请求添加分类函数
+export const reqAddCategory = (parentId, categoryName) => ajax(prefix + '/manage/category/add', {parentId, categoryName}, 'POST');
+// 请求修改分类函数
+export const reqUpdateCategoryName=(categoryId, categoryName)=>ajax(prefix + '/manage/category/update', {categoryId, categoryName}, 'POST')
