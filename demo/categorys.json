@@ -1,0 +1,168 @@
+{ 
+    "_id" : ObjectId("5ca37143e3277722f8f3225e"), 
+    "parentId" : "0", 
+    "name" : "手机", 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5ca37163e3277722f8f3225f"), 
+    "parentId" : "5ca37143e3277722f8f3225e", 
+    "name" : "iphone", 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5ca4923983c6ba05acfa8e89"), 
+    "parentId" : "0", 
+    "name" : "电脑", 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5ca4923f83c6ba05acfa8e8a"), 
+    "parentId" : "0", 
+    "name" : "衣服", 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5ca4924583c6ba05acfa8e8b"), 
+    "parentId" : "0", 
+    "name" : "鞋子123", 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5ca4924d83c6ba05acfa8e8c"), 
+    "parentId" : "0", 
+    "name" : "电器", 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5ca4b3a0ea85022e3c209486"), 
+    "parentId" : "5ca37143e3277722f8f3225e", 
+    "name" : "oppo", 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5ca4b416ea85022e3c209487"), 
+    "parentId" : "5ca37143e3277722f8f3225e", 
+    "name" : "华为", 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5ca4b42fea85022e3c209488"), 
+    "parentId" : "5ca37143e3277722f8f3225e", 
+    "name" : "小米", 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5ca4b448ea85022e3c209489"), 
+    "parentId" : "5ca37143e3277722f8f3225e", 
+    "name" : "vivo", 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5ca4b45aea85022e3c20948a"), 
+    "parentId" : "5ca37143e3277722f8f3225e", 
+    "name" : "三星", 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5ca4b4dcea85022e3c20948b"), 
+    "parentId" : "0", 
+    "name" : "包", 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5ca4b626ea85022e3c20948c"), 
+    "parentId" : "0", 
+    "name" : "帽子", 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5ca4c951ea85022e3c20948d"), 
+    "parentId" : "5ca4923983c6ba05acfa8e89", 
+    "name" : "华硕", 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5ca4ca10ea85022e3c20948e"), 
+    "parentId" : "5ca4923983c6ba05acfa8e89", 
+    "name" : "惠普", 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5ca4ca55ea85022e3c20948f"), 
+    "parentId" : "5ca4924583c6ba05acfa8e8b", 
+    "name" : "Nike", 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5ca4ca74ea85022e3c209490"), 
+    "parentId" : "5ca4923983c6ba05acfa8e89", 
+    "name" : "宏碁", 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5ca5613950e5a618e816f76b"), 
+    "parentId" : "0", 
+    "name" : "品如", 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5ca59ed750e5a618e816f76c"), 
+    "parentId" : "0", 
+    "name" : "相机", 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5ca59f9850e5a618e816f76d"), 
+    "parentId" : "0", 
+    "name" : "床上用品", 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5ca5c0cb50e5a618e816f76e"), 
+    "parentId" : "0", 
+    "name" : "兴趣用品", 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5ca5c0fa50e5a618e816f76f"), 
+    "parentId" : "5ca37143e3277722f8f3225e", 
+    "name" : "魅族", 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5ca5c23150e5a618e816f770"), 
+    "parentId" : "0", 
+    "name" : "网络用品", 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5ca5c23950e5a618e816f771"), 
+    "parentId" : "5ca37143e3277722f8f3225e", 
+    "name" : "金立", 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5caa9816f03a851d08335979"), 
+    "parentId" : "5ca4923983c6ba05acfa8e89", 
+    "name" : "惠普", 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5caa9a75f03a851d0833597a"), 
+    "parentId" : "5ca4923983c6ba05acfa8e89", 
+    "name" : "Mac", 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5caa9ac6f03a851d0833597b"), 
+    "parentId" : "5ca4923983c6ba05acfa8e89", 
+    "name" : "aaaa", 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5caa9b31f03a851d0833597c"), 
+    "parentId" : "5ca4923983c6ba05acfa8e89", 
+    "name" : "bbbb", 
+    "__v" : NumberInt(0)
+}

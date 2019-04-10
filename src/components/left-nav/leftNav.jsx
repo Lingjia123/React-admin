@@ -50,7 +50,7 @@ createMenu(menuList,openKeys){
           {
             children.map((item) => {
 
-              if (pathname === item.key) {
+              if (pathname.startsWith(item.key)) {
                 openKeys.push(menu.key);
               }
 
@@ -77,7 +77,12 @@ createMenu(menuList,openKeys){
   }
 
   render() {
-const {location:{pathname} ,opacity} = this.props;
+let {location:{pathname} ,opacity} = this.props;
+
+    if (pathname.startsWith('/product')) {
+       pathname = '/product';
+    }
+
     return (
       <div className='left-nav'>
         <Link to="/home" className="logo" onClick={this.handleClick}>

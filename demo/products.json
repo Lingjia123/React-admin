@@ -1,0 +1,56 @@
+{ 
+    "_id" : ObjectId("5ca371a2e3277722f8f32260"), 
+    "status" : NumberInt(2), 
+    "imgs" : [
+
+    ], 
+    "name" : "iphoneX", 
+    "desc" : "一个肾换回一次真爱", 
+    "price" : NumberInt(10000), 
+    "detail" : "<p>真爱就送iphoneX</p>\n<p>🤗</p>\n", 
+    "categoryId" : "5ca37163e3277722f8f3225f", 
+    "pCategoryId" : "5ca37143e3277722f8f3225e", 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5caabd3ff03a851d0833597d"), 
+    "status" : NumberInt(1), 
+    "imgs" : [
+
+    ], 
+    "name" : "iphone6", 
+    "desc" : "6666", 
+    "price" : NumberInt(1000), 
+    "detail" : "<p>iphone6666666666</p>\n", 
+    "categoryId" : "5ca37163e3277722f8f3225f", 
+    "pCategoryId" : "5ca37143e3277722f8f3225e", 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5caabd57f03a851d0833597e"), 
+    "status" : NumberInt(1), 
+    "imgs" : [
+
+    ], 
+    "name" : "iphone7", 
+    "desc" : "77777777", 
+    "price" : NumberInt(2000), 
+    "detail" : "<p>iphone7777777777</p>\n", 
+    "categoryId" : "5ca37163e3277722f8f3225f", 
+    "pCategoryId" : "5ca37143e3277722f8f3225e", 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5caabd6df03a851d0833597f"), 
+    "status" : NumberInt(1), 
+    "imgs" : [
+
+    ], 
+    "name" : "iphone8", 
+    "desc" : "888888888", 
+    "price" : NumberInt(3000), 
+    "detail" : "<p>iphone8888888888</p>\n", 
+    "categoryId" : "5ca37163e3277722f8f3225f", 
+    "pCategoryId" : "5ca37143e3277722f8f3225e", 
+    "__v" : NumberInt(0)
+}
